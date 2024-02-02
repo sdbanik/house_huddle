@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../controller/task_controller.dart';
 import '../model/house_model.dart';
 
@@ -11,9 +12,6 @@ class HouseHuddleApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'HouseHuddle',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
       home: TaskPage(),
     );
   }
@@ -30,7 +28,7 @@ class _TaskPageState extends State<TaskPage> {
   @override
   void initState() {
     super.initState();
-    // Initialize your tasks here, for demonstration purposes
+    // Initialize tasks for demonstration
     _controller.addTask(Task(id: 1, title: 'Clean the kitchen', description: 'Wash the dishes, clean the counter.'));
     _controller.addTask(Task(id: 2, title: 'Buy groceries', description: 'Milk, Bread, Eggs'));
   }
@@ -57,13 +55,6 @@ class _TaskPageState extends State<TaskPage> {
             },
           );
         },
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          // Add your action for the button here, like adding a new task
-        },
-        tooltip: 'Add Task',
-        child: Icon(Icons.add),
       ),
     );
   }
