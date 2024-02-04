@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "813139674848",
+    "project_id": "househuddle-1de57",
+    "storage_bucket": "househuddle-1de57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813139674848:android:c859d9c59ac33637b67285",
+        "android_client_info": {
+          "package_name": "com.example.house_huddle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCqJHJc55osdXWB0AteYUJr_cufD3ruHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
